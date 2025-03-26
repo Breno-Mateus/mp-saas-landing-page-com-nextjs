@@ -39,6 +39,7 @@
     --color-blue-700: oklch(.488 .243 264.376);
     --color-blue-800: oklch(.424 .199 265.638);
     --color-blue-900: oklch(.379 .146 265.522);
+    --color-blue-950: oklch(.282 .091 267.935);
     --color-gray-100: oklch(.967 .003 264.542);
     --color-gray-200: oklch(.928 .006 264.531);
     --color-gray-300: oklch(.872 .01 258.338);
@@ -78,6 +79,7 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
+    --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -481,6 +483,10 @@
     margin-top: calc(var(--spacing) * 6);
   }
 
+  .mt-9 {
+    margin-top: calc(var(--spacing) * 9);
+  }
+
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
@@ -503,6 +509,10 @@
 
   .mb-9 {
     margin-bottom: calc(var(--spacing) * 9);
+  }
+
+  .mb-20 {
+    margin-bottom: calc(var(--spacing) * 20);
   }
 
   .mb-28 {
@@ -623,6 +633,10 @@
     height: 100%;
   }
 
+  .min-h-full {
+    min-height: 100%;
+  }
+
   .min-h-screen {
     min-height: 100vh;
   }
@@ -641,10 +655,6 @@
 
   .w-4 {
     width: calc(var(--spacing) * 4);
-  }
-
-  .w-4\/5 {
-    width: 80%;
   }
 
   .w-5 {
@@ -844,10 +854,6 @@
     gap: calc(var(--spacing) * 3);
   }
 
-  .gap-3\.5 {
-    gap: calc(var(--spacing) * 3.5);
-  }
-
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
@@ -874,6 +880,10 @@
 
   .gap-12 {
     gap: calc(var(--spacing) * 12);
+  }
+
+  .gap-14 {
+    gap: calc(var(--spacing) * 14);
   }
 
   .gap-16 {
@@ -1091,6 +1101,10 @@
     border-color: #0000;
   }
 
+  .\!bg-background {
+    background-color: var(--background) !important;
+  }
+
   .bg-amber-300 {
     background-color: var(--color-amber-300);
   }
@@ -1113,6 +1127,10 @@
 
   .bg-black\/\[\.05\] {
     background-color: color-mix(in oklab, var(--color-black) 5%, transparent);
+  }
+
+  .bg-blue-950 {
+    background-color: var(--color-blue-950);
   }
 
   .bg-card {
@@ -1305,6 +1323,11 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+
+  .font-light {
+    --tw-font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-light);
   }
 
   .font-medium {

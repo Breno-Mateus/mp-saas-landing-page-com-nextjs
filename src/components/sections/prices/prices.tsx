@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 
 const Prices = () => {
   return(
-    <section className="flex flex-col items-center gap-20 pt-28 pb-32 bg-background">
+    <section className="flex flex-col items-center gap-20 pt-28 pb-32">
       <div className="flex flex-col gap-4 items-center max-w-4xl p-4 md:p-12 lg:p-0">
         <h1 className="font-bold text-2xl lg:text-6xl text-center">Preço Simples e Transparente</h1>
         <h2 className="font-normal text-xs lg:text-xl text-gray-500 text-center">Pra que inúmeros planos quando nós sabemos exatamente o que é melhor para você? Assine o nosso plano mensal <span className="underline">Pro Premium VIP</span> e garanta mensalmente um ebook novo de programação. E por menos de um café por dia.</h2>
