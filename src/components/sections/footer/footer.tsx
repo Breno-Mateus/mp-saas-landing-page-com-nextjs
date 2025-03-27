@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return(
-    <footer className="flex flex-col items-center gap-4 py-10">
+    <footer className="bg-white flex flex-col items-center gap-4 py-10">
       <Image
         src="/images/Logo.svg"
         alt="Logo da LivroSaaS"

@@ -6,7 +6,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 @custom-variant dark (&:is(.dark *));

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Operation = () => {
   return (
-    <section className="bg-white flex flex-col items-center pt-9 pb-20">
+    <section id="funcionamento" className="bg-white flex flex-col items-center pt-9 pb-20">
       <h1 className="font-bold text-xl md:text-4xl">Como funciona?</h1>
       <div className="flex p-7 gap-6 md:gap-8 lg:gap-16 items-center">
         <Image
